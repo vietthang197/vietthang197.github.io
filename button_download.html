@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tải về</title>
+</head>
+<style>
+    html {
+        background-color: #333;
+    }
+
+    button {
+        font-family: Arial, 'Times New Ronman', serif;
+        font-size: 22px;
+        width: 250px;
+        height: 70px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        border: 3px solid deepskyblue;
+        color: deepskyblue;
+        border-radius: 70px;
+    }
+
+    button:after {
+        content: '';
+        position: absolute;
+        right: 25px;
+        top: 18px;
+        width: 15px;
+        height: 15px;
+        border-bottom: 3px solid;
+        border-right: 3px solid;
+        box-shadow: 3px 3px #333, 6px 6px deepskyblue;
+        transform: rotate(45deg);
+    }
+</style>
+<body>
+    <button>DOWNLOAD</button>
+</body>
+</html>
