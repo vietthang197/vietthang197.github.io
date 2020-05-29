@@ -36,12 +36,12 @@
       height: 0;
     }
 
-    #mainnav {
+    nav {
       background-color: #60668b;
       height: 35px;
     }
 
-    #mainnav li {
+    nav li {
       float: left;
       width: 120px;
       height: 35px;
@@ -52,26 +52,26 @@
       line-height: 35px;
     }
 
-    #mainnav a {
+    nav a {
       text-decoration: none;
       color: #fff;
     }
 
-    #sidebar {
+    aside {
       float: left;
       width: 300px;
     }
 
-    #main {
+    article {
       float: right;
       width: 600px;
     }
 
-    #mainnav a:hover {
+    nav a:hover {
       color: #f1b2e9;
     }
 
-    #footer {
+    footer {
         text-align: center;
         background-color: #60668b;
         width: 960px;
@@ -79,19 +79,21 @@
         padding-top: 10px;
     }
 
-    #sidebar p, #sidebar h2, #sidebar h3, #sidebar h4 , 
-    #main p, #main h1 ,#main h2, #main h3, #main h4, #main table {
+    aside p, aside h2, aside h3, aside h4 , 
+    article p, article h1 ,article h2, article h3, article h4, article table {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    #masterhead {
+    header {
         position: relative;
         height: 100px;
     }
 
     #logo {
         position: absolute;
+        top: 20px;
+        left: 30px;
     }
 
     #headername {
@@ -102,24 +104,47 @@
 
     #headername h1 {
         color: darkorange;
+        text-shadow: 1px 1px 2px yellow, 0 0 25px yellow, 0 0 5px yellow ;
+        transition: font-size 0.4s;
+    }
+
+    #headername h1:hover {
+        font-size: 40px;
+    }
+
+    #logo img {
+        animation: logoanim 0.5s infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes logoanim {
+        0% {transform:rotate(-20deg);}
+        12% {transform:rotate(-15deg);}
+        25% {transform:rotate(-10deg);}
+        35% {transform:rotate(-5deg);}
+        50% {transform:rotate(0deg);}
+        60% {transform:rotate(5deg);}
+        75% {transform:rotate(10deg);}
+        90% {transform:rotate(15deg);}
+        100% {transform:rotate(20deg);}
     }
   </style>
   <body id="home">
     <div id="wrap">
-      <div id="masterhead">
+      <header>
         <div id="logo">
             <img
           src="buffalo_logo.png"
-          width="100px"
-          height="100px"
+          width="80px"
+          height="80px"
           alt="logo loai trau"
         />
         </div>
         <div id="headername">
             <h1>Trâu vàng</h1>
         </div>
-      </div>
-      <div id="mainnav">
+      </header>
+      <nav>
         <ul>
           <li><a href="#">Phân loài</a></li>
           <li><a href="#">Phân bố</a></li>
@@ -127,9 +152,9 @@
           <li><a href="#">Hình ảnh</a></li>
           <li><a href="#">Liên kết ngoài</a></li>
         </ul>
-      </div>
+      </nav>
       <div id="innerwrap">
-        <div id="sidebar">
+        <aside>
           <h2>Ca dao, tục ngữ</h2>
           <h3>Ca dao</h3>
           <ul>
@@ -146,8 +171,8 @@
             <li>Tậu trâu, cưới vợ, làm nhà</li>
             <li>Trong ba việc ấy ắt là khó thay</li>
           </ul>
-        </div>
-        <div id="main">
+        </aside>
+        <article>
           <h1>Trâu</h1>
           <p><strong>Trâu</strong> là một loại động vật thuộc họ trâu bò</p>
           <p>
@@ -206,14 +231,14 @@
               </td>
             </tr>
           </table>
-        </div>
+        </article>
       </div>
-      <div id="footer">
+      <footer>
         <p>
           Thông tin được trích từ nguồn
           <a href="https://vi.wikipedia.org/wiki/Tr%C3%A2u">Wikipedia</a>
         </p>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
