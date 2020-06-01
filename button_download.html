@@ -25,6 +25,15 @@
         border: 3px solid deepskyblue;
         color: deepskyblue;
         border-radius: 70px;
+        animation: resize 6s;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    @keyframes resize {
+        0%, 20% {line-height: 64px; width: 250px;}
+        25%, 100% {line-height: 150px; border-color: deepskyblue;}
+        30%, 100% {width: 70px;}
     }
 
     button:after {
