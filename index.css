@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #eef1f2;
+}
+
+.top-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+}
+
+header {
+    background-image: linear-gradient(to right, #df322f, #16428e);
+}
+
+.top-menu li a {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.top-menu li {
+    margin-right: 2%;
+}
+
+.top-menu li a:hover {
+    text-decoration: none;
+    color: #6355da;
+}
+
+.btn-search {
+    border: none;
+    background-color: #df322f;
+    color: white;
+    width: 2em;
+    height: 1.5em;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 2px;
+    margin-left: 0.5em;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search input {
+    height: 2.1em;
+    padding: 1em;
+    font-size: 13px;
+    border-color: rgb(223, 50, 47);
+    border-width: 1px;
+}
+
+.search input:focus {
+    outline: none !important;
+    border-color: rgb(223, 50, 47) !important;
+    border-width: 1px !important;
+}
+
+.bottom-header {
+    background-color: white;
+}
+
+.top-menu {
+    margin-bottom: 0;
+}
+
+.bottom-header-to {
+    background-color: white;
+}
+
+.bottom-header-to .container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container-fluid {
+    box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.5);
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .header-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .form-search {
+        margin-top: 1em;
+    }
+    .icon-bottom-header {
+        margin-top: 1em;
+    }
+    .header-login {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 764px) {
+    .form-search {
+        margin-top: 1em;
+    }
+    .icon-bottom-header {
+        margin-top: 1em;
+    }
+    .header-login {
+        margin-top: 1em;
+    }
+}
+
+.icon-bottom-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-bottom-header a {
+    color: #333;
+}
+
+.icon-bottom-header a:hover {
+    color: #6355da;
+}
+
+.header-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-login a {
+    color: #df322f;
+    border: 1px solid #df322f;
+    border-radius: 3px;
+    padding: 0.4em 0.6em;
+    font-size: 13px;
+}
+
+.header-login a:hover {
+    color: #6355da;
+    text-decoration: none;
+}
+
+.danhmuc {
+    margin-top: 1em;
+}
+
+.danhmuc-left {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.danhmuc-left ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.danhmuc-left ul label {
+    padding-left: 0.5em;
+    font-size: 15px;
+}
+
+.danhmuc-left ul li {
+    color: #464646;
+    padding: 0.3rem;
+}
+
+.danhmuc-left ul li a:hover {
+    text-decoration: none;
+}
+
+.danhmuc-left ul li a {
+    color: inherit;
+    font-size: 14px;
+    padding-left: 0.5rem;
+}
+
+.danhmuc-left ul li:hover {
+    border-left: 2px solid #dc3545;
+    background: #eef1f2;
+    cursor: pointer;
+    color: #df322f;
+}
+
+.danhmuc-center {
+    padding-left: 1em;
+    border-radius: 10px;
+    padding-right: 0;
+}
+
+.danhmuc-center img {
+    border-radius: 7px;
+    background-size: cover;
+}
+
+.banner-right {
+    height: 100%;
+}
+
+.banner-right ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.banner-right ul li a img {
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 767px) {
+    .danhmuc-left ul li {
+        text-align: center;
+    }
+
+    .banner-right ul li {
+        text-align: center;
+    }
+}
+
+.label-top-seller {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-seller {
+    padding: 0;
+    margin-top: 1em;
+}
