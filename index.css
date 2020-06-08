@@ -4,20 +4,10 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Open sans', sans-serif;
-    overflow-x: hidden;
-}
-
-html {
-    width: 100%;
-    height: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
     background-color: #eef1f2;
 }
 
@@ -131,7 +121,6 @@ header {
 }
 
 @media screen and (min-width: 400px) and (max-width: 764px) {
-    
     .icon-bottom-header {
         margin-top: 1em;
     }
@@ -248,7 +237,6 @@ header {
     .danhmuc-left ul li {
         text-align: center;
     }
-
     .banner-right ul li {
         text-align: center;
     }
@@ -262,4 +250,98 @@ header {
 .top-seller {
     padding: 0;
     margin-top: 1em;
+}
+
+.course-detail {
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.course-detail figure img {
+    width: 100%;
+    height: auto;
+}
+
+.sale {
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    font-size: 16px;
+    font-family: Lato;
+    padding-left: 0.9em;
+    padding-right: 0.8em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background: #df322f;
+    color: #fff;
+    border-radius: 3px;
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.like-course {
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    color: #333;
+    opacity: 0.25;
+}
+
+.like-course:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.back-star {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #333;
+    font-size: 14px;
+}
+
+.back-star div {
+    color: #f5a623;
+}
+
+.course-item {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.course-item-desc {
+    padding: 0.8em 1em;
+}
+
+.course-title {
+    font-size: 15px;
+    margin: 0.5em 0;
+    height: 3em;
+}
+
+.course-title a {
+    color: #333;
+    font-weight: bold;
+}
+
+.course-title a:hover {
+    text-decoration: none;
+}
+
+.course-teacher-desc a {
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+.course-teacher-desc a:hover {
+    text-decoration: none;
+}
+
+.course-teacher-desc a img {
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    margin-right: 0.6em;
 }
