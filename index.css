@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open sans', sans-serif;
-	overflow-x: hidden;
+    overflow: hidden;
 }
 
 html {
@@ -131,9 +131,7 @@ header {
 }
 
 @media screen and (min-width: 400px) and (max-width: 764px) {
-    .form-search {
-        margin-top: 1em;
-    }
+    
     .icon-bottom-header {
         margin-top: 1em;
     }
