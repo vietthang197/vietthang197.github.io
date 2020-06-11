@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trang chủ</title>
@@ -14,249 +13,1408 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="fontawesome/css/all.css" />
     <script src="fontawesome/js/all.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- top header -->
     <header>
-        <ul class="top-menu">
-            <li>
-                <a href="#">Kích hoạt khoá học</a>
-            </li>
-            <li>
-                <a href="#">
-            Kiểm tra đơn hàng
-          </a>
-            </li>
-            <li>
-                <a href="#">
-            Chăm sóc khách hàng
-          </a>
-            </li>
-            <li>
-                <a href="#">
-            Trở thành giảng viên
-          </a>
-            </li>
-            <li>
-                <a href="#">
-            Khoá học của tôi
-          </a>
-            </li>
-        </ul>
+      <ul class="top-menu">
+        <li><a href="#">Kích hoạt khoá học</a></li>
+        <li><a href="#"> Kiểm tra đơn hàng </a></li>
+        <li><a href="#"> Chăm sóc khách hàng </a></li>
+        <li><a href="#"> Trở thành giảng viên </a></li>
+        <li><a href="#"> Khoá học của tôi </a></li>
+      </ul>
     </header>
+    <!-- bottom header -->
     <div class="container-fluid bottom-header-to">
-        <div class="container">
-            <div class="row bottom-header">
-                <div class="col-sm-12 col-md-5 col-lg-5 header-left">
-                    <img src="img/logo_full.svg" width="103" height="32" alt="" />
-                    <form action="#" method="POST" class="form-search">
-                        <div class="search">
-                            <input type="text" placeholder="Tìm kiếm khoá học ngay" />
-                        </div>
-                        <div class="wrapper-submit">
-                            <button class="btn-search">
-                <i class="fas fa-search"></i>
-              </button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 icon-bottom-header">
-                    <div class="icon-bottom-header">
-                        <a href="#">
-                            <i class="fas fa-cart-plus"></i>
-                        </a>
-                    </div>
-                    <div class="icon-bottom-header">
-                        <a href="#">
-                            <i class="far fa-heart"></i>
-                        </a>
-                    </div>
-                    <div class="icon-bottom-header">
-                        <a href="#">
-                            <i class="far fa-bell"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 header-login">
-                    <a href="#">Đăng nhập</a>
-                    <a href="#">Đăng ký</a>
-                </div>
+      <div class="container">
+        <div class="row bottom-header">
+          <div class="col-sm-12 col-md-5 col-lg-5 header-left">
+            <img src="img/logo_full.svg" width="103" height="32" alt="" />
+            <form action="#" method="POST" class="form-search">
+              <div class="search">
+                <input type="text" placeholder="Tìm kiếm khoá học ngay" />
+              </div>
+              <div class="wrapper-submit">
+                <button class="btn-search">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 icon-bottom-header">
+            <div class="icon-bottom-header">
+              <a href="#"> <i class="fas fa-cart-plus"></i> </a>
             </div>
+            <div class="icon-bottom-header">
+              <a href="#"> <i class="far fa-heart"></i> </a>
+            </div>
+            <div class="icon-bottom-header">
+              <a href="#"> <i class="far fa-bell"></i> </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 header-login">
+            <a href="#">Đăng nhập</a> <a href="#">Đăng ký</a>
+          </div>
         </div>
+      </div>
     </div>
+    <!-- phần danh mục môn học -->
     <div class="container danhmuc">
-        <div class="row">
-            <div class="danhmuc-left col-sm-12 col-md-3 col-lg-3">
-                <ul>
-                    <label>
-                        <span><strong>Danh mục</strong></span>
-                    </label>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-language"></i>
-                            </span>
-                            <span>
-                                Ngoại ngữ
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-music"></i>
-                            </span>
-                            <span>Âm nhạc</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-laptop-code"></i>
-                            </span>
-                            <span>Công nghệ thông tin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-street-view"></i>
-                            </span>
-                            <span>Thể thao</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-book-reader"></i>
-                            </span>
-                            <span>Phát triển cá nhân</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-pen"></i>
-                            </span>
-                            <span>Thiết kế</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-shopping-bag"></i>
-                            </span>
-                            <span>Kinh doanh - khởi nghiệp</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-tv"></i>
-                            </span>
-                            <span>Tin học văn phòng</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-volume-down"></i>
-                            </span>
-                            <span>Marketing</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-camera"></i>
-                            </span>
-                            <span>Multimedia</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-hat-cowboy"></i>
-                            </span>
-                            <span>Kiến thức chuyên ngành</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-star"></i>
-                            </span>
-                            <span>Nghệ thuật - đời sống</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-ring"></i>
-                            </span>
-                            <span>Hôn nhân - gia đình</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-child"></i>
-                            </span>
-                            <span>Nuôi dạy con</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>
-                                <i class="fas fa-adjust"></i>
-                            </span>
-                            <span>Phong thuỷ/nhân tướng học</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="danhmuc-center col-sm-12 col-md-6 col-lg-6">
-                <img src="img/slider1.jpg" width="100%" height="100%" alt="">
-            </div>
-            <div class="danhmuc-right col-sm-12 col-md-3 col-lg-3">
-                <div class="banner-right">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="img/banner_right1.jpg" alt="" width="255px" height="160px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/banner_right2.jpg" alt="" width="255px" height="160px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/banner_right3.jpg" alt="" width="255px" height="160px">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="row">
+        <div class="danhmuc-left col-sm-12 col-md-3 col-lg-3">
+          <ul>
+            <label>
+              <span><strong>Danh mục</strong></span>
+            </label>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-language"></i> </span>
+                <span> Ngoại ngữ </span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-music"></i> </span> <span>Âm nhạc</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-laptop-code"></i> </span>
+                <span>Công nghệ thông tin</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-street-view"></i> </span>
+                <span>Thể thao</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-book-reader"></i> </span>
+                <span>Phát triển cá nhân</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-pen"></i> </span> <span>Thiết kế</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-shopping-bag"></i> </span>
+                <span>Kinh doanh - khởi nghiệp</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-tv"></i> </span>
+                <span>Tin học văn phòng</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-volume-down"></i> </span>
+                <span>Marketing</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-camera"></i> </span>
+                <span>Multimedia</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-hat-cowboy"></i> </span>
+                <span>Kiến thức chuyên ngành</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-star"></i> </span>
+                <span>Nghệ thuật - đời sống</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-ring"></i> </span>
+                <span>Hôn nhân - gia đình</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-child"></i> </span>
+                <span>Nuôi dạy con</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span> <i class="fas fa-adjust"></i> </span>
+                <span>Phong thuỷ/nhân tướng học</span>
+              </a>
+            </li>
+          </ul>
         </div>
+        <div class="danhmuc-center col-sm-12 col-md-6 col-lg-6">
+          <img src="img/slider1.jpg" width="100%" height="100%" alt="" />
+        </div>
+        <div class="danhmuc-right col-sm-12 col-md-3 col-lg-3">
+          <div class="banner-right">
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="img/banner_right1.jpg"
+                    alt=""
+                    width="255px"
+                    height="160px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="img/banner_right2.jpg"
+                    alt=""
+                    width="255px"
+                    height="160px"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="img/banner_right3.jpg"
+                    alt=""
+                    width="255px"
+                    height="160px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- phần sản phẩm bán chạy -->
     <div class="container top-seller">
-        <h2 class="label-top-seller">Top bán chạy</h2>
-        <div class="row list-courses">
-            <div class="course-item col-xs-12 col-sm-6 col-md-3">
-                <figure>
-                    <img src="course_item/course_1.png" alt="">
-                </figure>
-                <div class="course-item-desc">
-
+      <h2 class="label-top-seller">Top bán chạy</h2>
+      <div class="row list-courses">
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_1.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-63%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
                 </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#">Guitar đệm hát trong 30 ngày</a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
             </div>
-            <div class="course-item col-xs-12 col-sm-6 col-md-3"></div>
-            <div class="course-item col-xs-12 col-sm-6 col-md-3"></div>
-            <div class="course-item col-xs-12 col-sm-6 col-md-3"></div>
+          </div>
         </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_2.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-65%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.3</b> (3179)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#"> Nền tảng tiếng Anh cho người mới bắt đầu </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_3.jpg" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-66%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.4</b> (726)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#">
+                  Làm chủ 6 công cụ marketing online hot nhất hiện nay
+                </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_4.jpg" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-66%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#"> Nhập hàng Trung quốc tận gốc </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_1.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-63%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#"> Guitar đệm hát trong 30 ngày </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_1.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-63%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#"> Guitar đệm hát trong 30 ngày </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_1.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-63%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#"> Guitar đệm hát trong 30 ngày </a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-item col-xs-12 col-sm-6 col-md-3">
+          <div class="course-detail">
+            <figure><img src="course_item/course_2.png" alt="" /></figure>
+            <div class="course-item-desc">
+              <a href="#" class="like-course"> <i class="far fa-heart"></i> </a>
+              <span class="sale">-63%</span>
+              <div class="star-ratting">
+                <div class="back-star">
+                  <div>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <b>4.6</b> (1070)
+                </div>
+              </div>
+              <h3 class="course-title">
+                <a href="#">Guitar đệm hát trong 30 ngày</a>
+              </h3>
+              <div class="course-teacher-desc">
+                <a href="#">
+                  <img src="teacher/teacher1.jpg" alt="" />
+                  <span>Nguyễn Thượng Hiển</span>
+                </a>
+              </div>
+              <div class="course-item-price pull-right">
+                <span class="special-price">259.000đ</span>
+                <span class="old-price">699.000đ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+    <!-- phần khuyến mại -->
+    <div class="container deal">
+      <h2 class="label-deal">Khuyến mại</h2>
+      <div class="box">
+        <div class="col logo-deal">
+          <a href="#"> <img src="deal/logo_deal.jpg" alt="" /> </a>
+        </div>
+        <div class="list-course-deal">
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="course-detail">
+              <figure><img src="course_item/course_2.png" alt="" /></figure>
+              <div class="course-item-desc">
+                <a href="#" class="like-course">
+                  <i class="far fa-heart"></i>
+                </a>
+                <span class="sale">-63%</span>
+                <div class="star-ratting">
+                  <div class="back-star">
+                    <div>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <b>4.6</b> (1070)
+                  </div>
+                </div>
+                <h3 class="course-title">
+                  <a href="#">Guitar đệm hát trong 30 ngày</a>
+                </h3>
+                <div class="course-teacher-desc">
+                  <a href="#">
+                    <img src="teacher/teacher1.jpg" alt="" />
+                    <span>Nguyễn Thượng Hiển</span>
+                  </a>
+                </div>
+                <div class="course-item-price pull-right">
+                  <span class="special-price">259.000đ</span>
+                  <span class="old-price">699.000đ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- phần tính năng -->
+    <div class="container wrap-future">
+      <div class="row row-wrap-furute">
+        <div class="col-sm-12 col-md-6 col-lg-4 root-group">
+          <div class="padding-root-group">
+            <h2 class="label-future">Đánh giá cao</h2>
+            <div class="group-course-item-container">
+              <div class="num">1</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future1.png" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3>
+                    <a href="#">
+                      TS Lê Thẩm Dương - Tổng quan về quản trị rủi ro
+                    </a>
+                  </h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="group-course-item-container">
+              <div class="num">2</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future1.png" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3>
+                    <a href="#">
+                      TS Lê Thẩm Dương - Tổng quan về quản trị rủi ro
+                    </a>
+                  </h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="group-course-item-container">
+              <div class="num">3</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future1.png" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3>
+                    <a href="#">
+                      TS Lê Thẩm Dương - Tổng quan về quản trị rủi ro
+                    </a>
+                  </h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 root-group">
+          <div class="padding-root-group">
+            <h2 class="label-future">Mới nhất</h2>
+            <div class="group-course-item-container">
+              <div class="num">1</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future2.jpeg" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3><a href="#"> Forex cơ bản tới nâng cao </a></h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="group-course-item-container">
+              <div class="num">2</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future2.jpeg" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3><a href="#"> Forex cơ bản tới nâng cao </a></h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="group-course-item-container">
+              <div class="num">3</div>
+              <div class="group-course-item">
+                <!-- phan trai tim hien thi -->
+                <a href="#"></a>
+                <figure>
+                  <a href="#"> <img src="future/future2.jpeg" alt="" /> </a>
+                </figure>
+                <div class="group-course-item-desc">
+                  <h3><a href="#"> Forex cơ bản tới nâng cao </a></h3>
+                  <div class="star-ratting">
+                    <div class="back-star">
+                      <div>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <b>4.6</b> (1070)
+                    </div>
+                  </div>
+                  <div class="course-item-price pull-left">
+                    <span class="special-price">259.000đ</span>
+                    <span class="old-price">699.000đ</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 root-group banner-future"></div>
+      </div>
+    </div>
+    <!-- đang làm  phần giảng viên tiêu biểu -->
+    <div class="container wrap-top-teacher">
+      <h2 class="label-top-teacher">Giảng viên tiêu biểu</h2>
+      <div class="row list-teacher">
+        <div class="wrap-item-teacher col-sm-12 col-md-4">
+          <div class="group-teacher">
+            <div class="item-teacher">
+              <div class="logo-teacher">
+                <a href="#">
+                  <div class="teacher-img"></div>
+                </a>
+              </div>
+              <h2>Nguyễn Tuấn Anh</h2>
+              <div class="row teacher-course-info">
+                <div class="col-sm-12 col-md-4">
+                  <p class="course-number">2</p>
+                  <p class="course-name">KHOÁ HỌC</p>
+                </div>
+                <div class="ratting-teacher col-sm-12 col-md-4">
+                  <p class="course-number" style="color: #f5a623;">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                  <p class="course-name"><strong>5.0</strong> (2)</p>
+                </div>
+                <div class="student-number col-sm-12 col-md-4">
+                  <p class="course-number">2939</p>
+                  <p class="course-name">HỌC VIÊN</p>
+                </div>
+              </div>
+              <div class="row teacher-desc">
+                <p>CEO Nhập Hàng Trung Quốc 1688China.vn Hơn 5 Năm kinh nghiệm trong lĩnh vực nhập hàng và kinh doanh với Trung Quốc Coaching Doanh</p>
+              </div>
+              <div class="view-teacher-page-link">
+                <a href="#">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-teacher col-sm-12 col-md-4">
+          <div class="group-teacher">
+            <div class="item-teacher">
+              <div class="logo-teacher">
+                <a href="#">
+                  <div class="teacher-img"></div>
+                </a>
+              </div>
+              <h2>Nguyễn Tuấn Anh</h2>
+              <div class="row teacher-course-info">
+                <div class="col-sm-12 col-md-4">
+                  <p class="course-number">2</p>
+                  <p class="course-name">KHOÁ HỌC</p>
+                </div>
+                <div class="ratting-teacher col-sm-12 col-md-4">
+                  <p class="course-number" style="color: #f5a623;">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                  <p class="course-name"><strong>5.0</strong> (2)</p>
+                </div>
+                <div class="student-number col-sm-12 col-md-4">
+                  <p class="course-number">2939</p>
+                  <p class="course-name">HỌC VIÊN</p>
+                </div>
+              </div>
+              <div class="row teacher-desc">
+                <p>CEO Nhập Hàng Trung Quốc 1688China.vn Hơn 5 Năm kinh nghiệm trong lĩnh vực nhập hàng và kinh doanh với Trung Quốc Coaching Doanh</p>
+              </div>
+              <div class="view-teacher-page-link">
+                <a href="#">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-teacher col-sm-12 col-md-4">
+          <div class="group-teacher">
+            <div class="item-teacher">
+              <div class="logo-teacher">
+                <a href="#">
+                  <div class="teacher-img"></div>
+                </a>
+              </div>
+              <h2>Nguyễn Tuấn Anh</h2>
+              <div class="row teacher-course-info">
+                <div class="col-sm-12 col-md-4">
+                  <p class="course-number">2</p>
+                  <p class="course-name">KHOÁ HỌC</p>
+                </div>
+                <div class="ratting-teacher col-sm-12 col-md-4">
+                  <p class="course-number" style="color: #f5a623;">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </p>
+                  <p class="course-name"><strong>5.0</strong> (2)</p>
+                </div>
+                <div class="student-number col-sm-12 col-md-4">
+                  <p class="course-number">2939</p>
+                  <p class="course-name">HỌC VIÊN</p>
+                </div>
+              </div>
+              <div class="row teacher-desc">
+                <p>CEO Nhập Hàng Trung Quốc 1688China.vn Hơn 5 Năm kinh nghiệm trong lĩnh vực nhập hàng và kinh doanh với Trung Quốc Coaching Doanh</p>
+              </div>
+              <div class="view-teacher-page-link">
+                <a href="#">Xem thêm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- phần hành trang nghề nghiệp -->
+    <div class="container wrap-top-work">
+      <h2 class="label-top-work">Hành trang nghề nghiệp dành cho bạn</h2>
+      <div class="row list-work">
+        <div class="wrap-item-work col-sm-12 col-md-6">
+          <div class="work-item">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work1.png" alt="" />
+            <div class="banner-text">
+              <h3 title="Combo ngọc thô toả sáng">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #b71c1c;">
+                    <i class="fas fa-gem"></i>
+                  </span> Edumall Combo ngọc
+                  thô toả sáng
+                  <span class="number-course">8 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-work col-sm-12 col-md-6">
+          <div class="work-item">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work2.png" alt="" />
+            <div class="banner-text">
+              <h3 title="Chinh phục thế giới Digital">
+                <a href="#">
+                  <span class="mini-logo-work-item">
+                    <i class="fas fa-cogs"></i>
+                  </span> Chinh phục thế giới Digital
+                  <span class="number-course">8 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row list-work">
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work3.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Combo ngọc thô toả sáng">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #68bf32;">
+                    <i class="fas fa-globe"></i>
+                  </span> Tiếng Anh giao tiếp cho người mới bắt đầu
+                  <span class="number-course">8 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work4.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Chinh phục thế giới Digital">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #ff7903;">
+                    <i class="fas fa-chart-line"></i>
+                  </span> Nuôi dạy con thành tài
+                  <span class="number-course">3 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work5.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Chinh phục thế giới Digital">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #f5a623;">
+                    <i class="fas fa-drafting-compass"></i>
+                  </span> Trở thành designer chuyên nghiệp
+                  <span class="number-course">2 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row list-work">
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work6.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Combo ngọc thô toả sáng">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #2962ff;">
+                    <i class="fas fa-calculator"></i>
+                  </span> Phát triển bản thân cùng TS.Lê Thẩm Du
+                  <span class="number-course">0 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work7.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Chinh phục thế giới Digital">
+                <a href="#">
+                  <span class="mini-logo-work-item" style="color: #c30000;">
+                    <i class="fas fa-users"></i>
+                  </span> Bí quyết giữ lửa hạnh phúc gia đình
+                  <span class="number-course">5 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-item-work col-sm-12 col-md-4">
+          <div class="work-item work-item2">
+            <a class="marsk" href="#"></a> 
+            <img src="work/work8.jpg" alt="" />
+            <div class="banner-text">
+              <h3 title="Chinh phục thế giới Digital">
+                <a href="#">
+                  <span class="mini-logo-work-item">
+                    <i class="fas fa-desktop"></i>
+                  </span> Trọn bộ tin học văn phòng
+                  <span class="number-course">8 khoá</span>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="want-course container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>
+            Chưa tìm ra khoá học bạn muốn?
+            <br>
+            Đừng lo, còn hàng trăm khoá học tại Edumall.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- danh sách khoá học -->
+    <div class="container list-category">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-globe-americas"></i>
+                </span>
+              </a>
+              <span class="category-name">Ngoại ngữ</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-music"></i>
+                </span>
+              </a>
+              <span class="category-name">Âm nhạc</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-code"></i>
+                </span>
+              </a>
+              <span class="category-name">Công nghệ thông tin</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-walking"></i>
+                </span>
+              </a>
+              <span class="category-name">Thể thao - sức khoẻ</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-universal-access"></i>
+                </span>
+              </a>
+              <span class="category-name">Phát triển cá nhân</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-palette"></i>
+                </span>
+              </a>
+              <span class="category-name">Thiết kế</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-user-tie"></i>
+                </span>
+              </a>
+              <span class="category-name">Kinh doanh - khởi nghiệp</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-file-word"></i>
+                </span>
+              </a>
+              <span class="category-name">Tin học văn phòng</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-bullhorn"></i>
+                </span>
+              </a>
+              <span class="category-name">Marketing</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-microphone-alt"></i>
+                </span>
+              </a>
+              <span class="category-name">Multimedia</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fab fa-redhat"></i>
+                </span>
+              </a>
+              <span class="category-name">Kiến thức chuyên ngành</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-star"></i>
+                </span>
+              </a>
+              <span class="category-name">Nghệ thuật đời sống</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-house-user"></i>
+                </span>
+              </a>
+              <span class="category-name">Hôn nhân gia đình</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-baby"></i>
+                </span>
+              </a>
+              <span class="category-name">Nuôi dạy con</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fab fa-galactic-senate"></i>
+                </span>
+              </a>
+              <span class="category-name">Phong thuỷ - nhân tướng học</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon">
+                  <i class="fas fa-exclamation-circle"></i>
+                </span>
+              </a>
+              <span class="category-name">18+ FBI Warning</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <div class="initmate">
+              <a href="#">
+                <img src="img/footer_dk_bct_red.png" alt="">
+              </a>
+              <p>Công ty cổ phẩn giáo dục Topica English
+                MST: 0106291976 do Sở Kế hoạch và Đầu tư TP.Hà Nội cấp ngày 27 tháng 08 năm 2013
+                TOPICA - UP Coworking Space, tầng 6, Hanoi Creative City, số 1 Lương Yên, Hai Bà Trưng, Hà Nội
+                <br>
+                Hotline:1800 6816 - Email: cskh@edumall.vn</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div class="introduce">
+              <h4>Về Edumall</h4>
+              <ul>
+                <li><a href="">Điều khoản sử dụng</a></li>
+                <li><a href="">Quy chế hoạt động</a></li>
+                <li><a href="">Chính sách bảo mật</a></li>
+                <li><a href="">Trung tâm chăm sóc khách hàng</a></li>
+                <li><a href="">Chính sách hoàn tiền</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">YouTube</a></li>
+                <li><a href="">Blog </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div class="introduce">
+              <h4>Các khoá học khác</h4>
+              <ul>
+                <li><a href="">Ngoại ngữ</a></li>
+                <li><a href="">18+</a></li>
+                <li><a href="">Hacking</a></li>
+                <li><a href="">Đua xe phân khối</a></li>
+                <li><a href="">Hút cần</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">YouTube</a></li>
+                <li><a href="">Blog </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div class="media">
+              <p>
+                Tải ngay App Edumall
+              <br>
+              Học tốt hơn - thoải mái hơn
+              </p>
+              <div class="row">
+                <div class="col-lg-12 app-store">
+                  <img src="img/app_store.jpg" alt="">
+                </div>
+                <div class="col-lg-12  play-store">
+                  <img src="img/play_store.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
