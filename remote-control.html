@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <script src="fontawesome/js/all.js"></script>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 2px;
+        row-gap: 2px;
+        width: 500px;
+        height: 500px;
+        background: #ECECEC;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .grid-item {
+        background-color: #ECECEC;
+    }
+    
+    .btn-wrap-enter {
+        position: relative;
+    }
+    
+    .wrap-enter-1 {
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-color: #2A99C6;
+        z-index: 11;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .wrap-enter-2 {
+        background-color: #ECECEC;
+        width: 95%;
+        height: 95%;
+        border-radius: 50%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item top-left" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 50%;left: 50%;z-index: 12;font-size: 40px;">
+                
+        </span>
+        </div>
+        <div class="grid-item" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 20%;left: 40%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item top-right" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 50%;right: 50%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 40%;left: 20%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item btn-wrap-enter">
+            <div class="wrap-enter-1">
+                <div class="wrap-enter-2" style="padding: 14%">
+                    <div class="grid-item" style="position: relative;">
+                        <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 40%;left: 27%;z-index: 12;font-size: 40px;"></span>
+                    </div>
+                    <div class="grid-item" style="position: relative;">
+                        <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 40%;right: 27%;z-index: 12;font-size: 40px;"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 40%;left: 60%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item bottom-left" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 30%;left: 60%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 60%;left: 40%;z-index: 12;font-size: 40px;"></span>
+        </div>
+        <div class="grid-item bottom-right" style="position: relative;">
+            <span onclick="alerts()" class="fas fa-user" style="color: #2A99C6;position: absolute;top: 20%;left: 30%;z-index: 12;font-size: 40px;"></span>
+        </div>
+    </div>
+</body>
+
+<script>
+    function alerts() {
+        alert('ok')
+    }
+</script>
+
+</html>
