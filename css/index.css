@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 14px;
+    padding: 0.8% 0.8%;
+}
+
+header p {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    padding: 2% 2%;
+    text-align: center;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    nav ul li {
+        float: left;
+        padding: 1% 2%;
+    }
+}
