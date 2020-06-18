@@ -30,11 +30,13 @@ nav ul {
     list-style: none;
     width: 100%;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 nav ul li {
     padding: 2% 2%;
     text-align: center;
+    padding-left: 0;
 }
 
 nav ul li a {
@@ -52,5 +54,10 @@ nav ul li a:hover {
     nav ul li {
         float: left;
         padding: 1% 2%;
+    }
+    nav ul {
+        list-style: none;
+        width: 100%;
+        margin-bottom: 0;
     }
 }
